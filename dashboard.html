@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة المستخدم - اربح كوينز</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>اربح كوينز</h1>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="tasks.html">المهام</a>
+    <a href="rewards.html">الجوائز</a>
+    <a href="dashboard.html">لوحة المستخدم</a>
+  </nav>
+</header>
+<main>
+  <h2>لوحة المستخدم</h2>
+  <p>رصيد النقاط الحالي: <span id="coins">0</span></p>
+  <button onclick="collectCoin()">اجمع نقطة</button>
+  <button onclick="resetCoins()">إعادة ضبط النقاط</button>
+</main>
+<script>
+let coins = 0;
+function collectCoin() {
+  coins += 1;
+  document.getElementById('coins').textContent = coins;
+}
+function resetCoins() {
+  coins = 0;
+  document.getElementById('coins').textContent = coins;
+}
+</script>
+<footer>
+  <p>&copy; 2025 اربح كوينز</p>
+</footer>
+</body>
+</html>
