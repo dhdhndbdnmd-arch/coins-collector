@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  background-color: #fff0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e60000;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+button, .btn {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
